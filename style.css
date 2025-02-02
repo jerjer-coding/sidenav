@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  background-color:rgb(228, 90, 90);
+  }
+  nav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    background-color: black;
+    padding-right: 15px;
+    padding-left: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    font-size: 21px;
+    display: flex;
+    color: rgb(255, 234, 128);
+    padding: 5px 10px;
+    transition: .2s ease-in-out;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  nav a:hover {
+    background-color: red;
+    scale: 115%;
+  } 
+  .main {
+    margin-left: 160px; 
+    padding: 5px 10px;
+  }
+  .logo{
+    height:px;
+    color: crimson;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+    margin: 0.1cm;
+  }
+  .welkam{
+    color: rgb(126, 121, 102);
+    margin: 0.15cm;
+    margin-left: 0.02cm;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+  }
+  .welkam:hover{
+    cursor: pointer;
+  }
+  .konten{
+    width: 100% - 190px;
+    height: 200px;
+    margin-left: 190px;
+    padding-top: 0.2px;
+  }
+  .konten h1{
+    color: rgb(69, 62, 32);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .lagu{
+    width: 50px;
+    height: 60px;
+  }
+  .konten img{
+    margin-top: 25px;
+    height: 12cm;
+  }
+    
+  .text-container{
+    text-align: center;
+    width: 60%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    color: rgb(255, 183, 0); 
+  }
+  html{
+    scroll-behavior: smooth;
+  }
